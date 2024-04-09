@@ -1,3 +1,107 @@
-body {
+
+:root {
+    --white: #fff;
+    --cyan: #00A0E3;
+    --red: #FF0000;
+    --yellow: #FFF500;
+}
+.nav {
+    display: flex;
+}
+.menu {
+    margin-top: 69px;
+    margin-left: 380px;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
     font-family: "Unbounded", sans-serif;
+    width: 840px;
+}
+a {
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 300;
+    font-size: 24px;
+}
+a:hover {
+    color: var(--red);
+    transition: ease-in-out 0.3s;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1390px;
+}
+.text {
+    padding-top: 122px;
+    padding-left: 250px;
+}
+.text h3 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--cyan);
+    white-space: nowrap;
+}
+.text h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 66px;
+    color: var(--cyan);
+}
+.text1 h2 {
+    margin-top: -127px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    color: var(--cyan);
+}
+.text1 {
+    padding-top: 122px;
+    padding-left: 100px;
+}
+.image {
+    margin-top: 237px;
+}
+.container2 h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    margin-top: 119px;
+    color: var(--cyan);
+    padding-left: 300px;
+}
+.container2 img {
+    margin-top: 97px;
+}
+.container2 h4 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 40px;
+    margin-top: 103px;
+    color: var(--cyan);
+    padding-left: 300px;
+    font-weight: 300;
+}
+.container2 h4 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 22px;
+    margin-top: 48px;
+    color: var(--cyan);
+    padding-left: 300px;
+    font-weight: 300;
+}
+.nas h4 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 40px;
+    margin-top: 103px;
+    color: var(--cyan);
+    padding-left: 200px;
+    font-weight: 300;
+}
+.nas h4 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 22px;
+    margin-top: 48px;
+    color: var(--cyan);
+    padding-left: 100px;
+    font-weight: 300;
 }
