@@ -69,9 +69,11 @@ a:hover {
     margin-top: 119px;
     color: var(--cyan);
     padding-left: 300px;
+    display: flex;
 }
 .container2 img {
     margin-top: 97px;
+    display: flex;
 }
 .container2 h4 {
     font-family: "Unbounded", sans-serif;
@@ -80,6 +82,7 @@ a:hover {
     color: var(--cyan);
     padding-left: 300px;
     font-weight: 300;
+    display: flex;
 }
 .container2 h4 {
     font-family: "Unbounded", sans-serif;
@@ -88,6 +91,7 @@ a:hover {
     color: var(--cyan);
     padding-left: 300px;
     font-weight: 300;
+    display: flex;
 }
 .nas h4 {
     font-family: "Unbounded", sans-serif;
